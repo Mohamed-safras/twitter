@@ -1,0 +1,17 @@
+.sidebarRow {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin-top: 0;
+}
+.sidebarRow:hover {
+  background-color: lightgray;
+}
+
+.sidebarRow > h4 {
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  margin-left: 15px;
+}

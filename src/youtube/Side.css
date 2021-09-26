@@ -1,0 +1,26 @@
+.sidebar {
+  position: fixed;
+  overflow-y: scroll;
+  top: 50px;
+  bottom: 0;
+  background-color: white;
+  display: flex;
+  z-index: 1;
+  flex-direction: column;
+  min-width: 240px;
+  transition: all 1s ease-in;
+  transform: translateX(-1000px);
+}
+
+.sidebar.showSidebar {
+  transform: translateX(0px);
+}
+
+.sidebar::-webkit-scrollbar {
+  display: none;
+}
+
+.sidebar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

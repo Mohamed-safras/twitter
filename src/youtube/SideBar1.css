@@ -1,0 +1,12 @@
+.sidebar1 {
+  position: fixed;
+  overflow-y: scroll;
+  top: 50px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  display: flex;
+  z-index: 1;
+  flex-direction: column;
+  min-width: 30px;
+}

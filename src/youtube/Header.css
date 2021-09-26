@@ -1,0 +1,63 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 20px;
+  top: 0;
+  position: sticky;
+  z-index: 1;
+  overflow: hidden;
+}
+.header__left {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+}
+.header__left > img {
+  height: 50px;
+  width: 100px;
+  cursor: pointer;
+}
+
+.header__middle {
+  display: flex;
+  align-items: center;
+}
+.header__middle > form {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+.header__middle > form > input {
+  width: 500px;
+  height: 30px;
+  font-size: medium;
+  padding: 0 10px;
+  outline: none;
+  border: 1px solid rgb(212, 212, 212);
+}
+.serach {
+  width: 60px;
+  background-color: rgb(233, 233, 233);
+  padding: 0 10px;
+  border: 1px solid darkgrey;
+  color: gray;
+  cursor: pointer;
+}
+
+.serach:hover {
+  color: black;
+  background-color: rgb(230, 230, 230);
+}
+.serach > .MuiSvgIcon-root {
+  margin-left: 10px;
+}
+.header__right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.Icon {
+  cursor: pointer;
+}

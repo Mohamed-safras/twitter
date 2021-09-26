@@ -1,0 +1,25 @@
+.sidebarRow {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 20px;
+  height: 50px;
+  margin-top: 15px;
+}
+
+.sidebarrow--active {
+  color: var(--twitter-color);
+}
+.sidebarRow:hover {
+  background-color: #e8f5fe;
+  transition: color 100ms ease-out;
+  border-radius: 30px;
+  color: var(--twitter-color);
+  width: fit-content;
+}
+
+.sidebarRow > h2 {
+  margin-left: 20px;
+  font-weight: 700;
+  font-size: 20px;
+}
